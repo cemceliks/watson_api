@@ -12,12 +12,17 @@ const app = express();
 }); */
 const Pool = require("pg").Pool;
 const db = new Pool({
-  user: "cemcelik",
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
+});
+/*   user: "cemcelik",
   host: "localhost",
   database: "watson",
   password: "whoopy55",
   port: 5432,
-});
+}); */
 /* const db = new Client({
   connectionString: process.env.DATABASE_URL,
   ssl: {
