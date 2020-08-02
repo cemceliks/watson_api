@@ -24,7 +24,8 @@ const db = new Pool({
   password: "whoopy55",
   port: 5432,
 }); */
-const db = new Client({
+const Pool = require("pg").Pool;
+const db = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false,
@@ -104,5 +105,5 @@ function getTitleFromSlug(str) {
   return str.split("-")[0].toUpperCase();
 }
 
-const port = process.env.PORT || 3001;
-app.listen(port, () => console.log(`listening on port ${port}...`));
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => console.log(`listening on port ${PORT}`));
