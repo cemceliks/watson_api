@@ -24,20 +24,12 @@ const db = new Pool({
   password: "whoopy55",
   port: 5432,
 }); */
-/* const db = new Client({
+const db = new Client({
   connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false,
   },
-}); */
-var pg = require('pg');
-pg.defaults.ssl = true;
-var pool = new pg.Pool(process.env.DATABASE_URL);
-
-pool.connect(function(err, client, done) {
-if(err) {
-  return console.error('error fetching client from pool', err);
-}
+});
 
 // Connect
 db.connect((err) => {
