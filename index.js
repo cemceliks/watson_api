@@ -45,8 +45,10 @@ app.use(cors());
 app.get("/api/faqs", (req, res) => {
   const sql = `SELECT * FROM faqs
   ORDER BY faq_type_id, faq_id ASC;`;
+  console.log("Running: " + sql);
   db.query(sql, function (err, result) {
     if (result) {
+      console.log("Got result: " + result);
       const faqs = new Promise((resolve, reject) => {
         if (err) {
           reject("Failed with the message: ", err);
