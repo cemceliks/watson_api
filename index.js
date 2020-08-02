@@ -10,13 +10,14 @@ const app = express();
   password: "whoopy55",
   database: "watson_cms",
 }); */
-const Pool = require("pg").Pool;
+
+/* const Pool = require("pg").Pool;
 const db = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false
   }
-});
+}); */
 /*   user: "cemcelik",
   host: "localhost",
   database: "watson",
@@ -29,6 +30,14 @@ const db = new Pool({
     rejectUnauthorized: false,
   },
 }); */
+var pg = require('pg');
+pg.defaults.ssl = true;
+var pool = new pg.Pool(process.env.DATABASE_URL);
+
+pool.connect(function(err, client, done) {
+if(err) {
+  return console.error('error fetching client from pool', err);
+}
 
 // Connect
 db.connect((err) => {
