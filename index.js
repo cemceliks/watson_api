@@ -1,20 +1,34 @@
 const express = require("express");
 var cors = require("cors");
-const mysql = require("mysql8");
+const { Client } = require("pg");
 const app = express();
 
 //Create connection
-const db = mysql.createConnection({
+/* const db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "whoopy55",
   database: "watson_cms",
+}); */
+const Pool = require("pg").Pool;
+const db = new Pool({
+  user: "cemcelik",
+  host: "localhost",
+  database: "watson",
+  password: "whoopy55",
+  port: 5432,
 });
+/* const db = new Client({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false,
+  },
+}); */
 
 // Connect
 db.connect((err) => {
   if (err) throw err;
-  console.log("MySQL connected");
+  console.log("Postgres connected");
 });
 
 // Middleware utilities
@@ -22,8 +36,8 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/api/faqs", (req, res) => {
-  const sql = `SELECT * FROM faqs f JOIN faq_types ft USING (faq_type_id)
-  ORDER BY faq_type_id, updated_at ASC;`;
+  const sql = `SELECT * FROM faqs
+  ORDER BY faq_type_id, faq_id ASC;`;
   db.query(sql, function (err, result) {
     if (result) {
       const faqs = new Promise((resolve, reject) => {
@@ -39,8 +53,7 @@ app.get("/api/faqs", (req, res) => {
 
 app.get("/api/works/:type", (req, res) => {
   const type_id = req.params.type;
-  const sql = `SELECT * FROM works w JOIN work_types wt 
-  USING (work_type_id)
+  const sql = `SELECT * FROM works 
   WHERE work_type_id=${type_id} ORDER BY order_id;`;
   db.query(sql, function (err, result) {
     if (result) {
