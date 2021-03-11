@@ -1,0 +1,14 @@
+[
+	{
+		"work_type_id" : 1,
+		"work_type" : "Moving Image"
+	},
+	{
+		"work_type_id" : 2,
+		"work_type" : "Fashion Editorial"
+	},
+	{
+		"work_type_id" : 3,
+		"work_type" : "Advertising"
+	}
+]

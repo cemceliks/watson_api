@@ -1,0 +1,14 @@
+[
+	{
+		"faq_type_id" : 1,
+		"faq_type" : "PLANNING & PRE-PRODUCTION"
+	},
+	{
+		"faq_type_id" : 2,
+		"faq_type" : "FILM & PHOTO PRODUCTION CREWS"
+	},
+	{
+		"faq_type_id" : 3,
+		"faq_type" : "EQUIPMENT"
+	}
+]

@@ -1,0 +1,162 @@
+[
+	{
+		"faq_id" : 1,
+		"faq_type_id" : 1,
+		"faq" : "CO-ORDINATION, PLANNING &amp; BUDGET MANAGEMENT",
+		"answer" : "",
+		"created_at" : "2020-05-22 17:09:00",
+		"updated_at" : "2020-05-22 17:09:00"
+	},
+	{
+		"faq_id" : 3,
+		"faq_type_id" : 1,
+		"faq" : "LOCATIONS, SCOUTING &amp; PERMITS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:35:39",
+		"updated_at" : "2020-05-26 19:45:57"
+	},
+	{
+		"faq_id" : 4,
+		"faq_type_id" : 1,
+		"faq" : "CASTING &amp; MODEL SOURCING OF ALL AGES AND ETHNICITIES",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:46:43",
+		"updated_at" : "2020-05-26 19:46:43"
+	},
+	{
+		"faq_id" : 5,
+		"faq_type_id" : 1,
+		"faq" : "ACCOMMODATION AND TRANSPORT SERVICES",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:46:58",
+		"updated_at" : "2020-05-26 19:46:58"
+	},
+	{
+		"faq_id" : 6,
+		"faq_type_id" : 1,
+		"faq" : "HIGH QUALITY CATERING",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:47:15",
+		"updated_at" : "2020-05-26 19:47:15"
+	},
+	{
+		"faq_id" : 7,
+		"faq_type_id" : 1,
+		"faq" : "PROPS WAREHOUSE &amp; PROP FINDING",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:47:30",
+		"updated_at" : "2020-05-26 19:47:30"
+	},
+	{
+		"faq_id" : 8,
+		"faq_type_id" : 1,
+		"faq" : "POST-PRODUCTION",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:47:47",
+		"updated_at" : "2020-05-26 19:47:47"
+	},
+	{
+		"faq_id" : 9,
+		"faq_type_id" : 2,
+		"faq" : "WRITERS, COPYWRITERS, DIRECTORS, DOPS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:48:04",
+		"updated_at" : "2020-05-26 19:48:04"
+	},
+	{
+		"faq_id" : 10,
+		"faq_type_id" : 2,
+		"faq" : "DEVELOPING STORYBOARDS, TREATMENTS &amp; SCRIPTS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:48:20",
+		"updated_at" : "2020-05-26 19:48:20"
+	},
+	{
+		"faq_id" : 11,
+		"faq_type_id" : 2,
+		"faq" : "BEHIND THE SCENE VIDEO OR STILLS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:49:01",
+		"updated_at" : "2020-05-26 19:49:01"
+	},
+	{
+		"faq_id" : 12,
+		"faq_type_id" : 2,
+		"faq" : "PHOTO &amp; DIGITAL ASSISTANTS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:49:36",
+		"updated_at" : "2020-05-26 19:49:36"
+	},
+	{
+		"faq_id" : 13,
+		"faq_type_id" : 2,
+		"faq" : "STYLISTS AND HAIR &amp; MAKE-UP ARTISTS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:49:50",
+		"updated_at" : "2020-05-26 19:49:50"
+	},
+	{
+		"faq_id" : 14,
+		"faq_type_id" : 2,
+		"faq" : "ART DIRECTORS &amp; PROP MASTERS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:50:05",
+		"updated_at" : "2020-05-26 19:50:05"
+	},
+	{
+		"faq_id" : 15,
+		"faq_type_id" : 2,
+		"faq" : "SET BUILDERS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:50:18",
+		"updated_at" : "2020-05-26 19:50:18"
+	},
+	{
+		"faq_id" : 16,
+		"faq_type_id" : 3,
+		"faq" : "TOP OF THE RANGE VIDEO CAMERAS INCLUDING ALEXA, RED AND BLACKMAGIC",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:50:38",
+		"updated_at" : "2020-05-26 19:50:38"
+	},
+	{
+		"faq_id" : 17,
+		"faq_type_id" : 3,
+		"faq" : "PREMIUM PHOTO EQUIPMENT INCLUDING NIKON 810, PROFOTO AND BRONCOLOR",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:51:02",
+		"updated_at" : "2020-05-26 19:51:02"
+	},
+	{
+		"faq_id" : 18,
+		"faq_type_id" : 3,
+		"faq" : "STEADY CAM &amp; TOP RANGE GRIP EQUIPMENT",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:51:28",
+		"updated_at" : "2020-05-26 19:51:28"
+	},
+	{
+		"faq_id" : 19,
+		"faq_type_id" : 3,
+		"faq" : "MAKE-UP BUSES",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:51:42",
+		"updated_at" : "2020-05-26 19:51:42"
+	},
+	{
+		"faq_id" : 20,
+		"faq_type_id" : 3,
+		"faq" : "DRONES &amp; OCTOCOPTERS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:51:56",
+		"updated_at" : "2020-05-26 19:51:56"
+	},
+	{
+		"faq_id" : 21,
+		"faq_type_id" : 3,
+		"faq" : "PRODUCTION EQUIPMENT COVERING ALL YOUR NEEDS",
+		"answer" : "",
+		"created_at" : "2020-05-26 19:52:09",
+		"updated_at" : "2020-05-26 19:52:09"
+	}
+]
