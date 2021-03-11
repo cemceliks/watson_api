@@ -4,12 +4,12 @@ const { Client } = require("pg");
 const app = express();
 
 //Create connection
-/* const db = mysql.createConnection({
+const db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "whoopy55",
   database: "watson_cms",
-}); */
+});
 
 /* const Pool = require("pg").Pool;
 const db = new Pool({
@@ -24,13 +24,13 @@ const db = new Pool({
   password: "whoopy55",
   port: 5432,
 }); */
-const Pool = require("pg").Pool;
+/* const Pool = require("pg").Pool;
 const db = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false,
   },
-});
+}); */
 
 // Connect
 db.connect((err) => {
